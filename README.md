@@ -19,7 +19,7 @@ The "-m" flag above is used for running the Python script. The accuracies report
 
 ## Running the Code
 
-To start, this code requires Python 3.7+ and pip to be installed on your machine. 
+To start, this code requires Python 3.6+ and pip to be installed on your machine. 
 Run the code below in your terminal to clone the repository and setup your environment.
 
 ```
