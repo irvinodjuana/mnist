@@ -2,6 +2,8 @@ import numpy as np
 from tqdm import tqdm
 import pickle
 
+# This implementation largely follows the code given in this article:
+# https://towardsdatascience.com/convolutional-neural-networks-from-the-ground-up-c67bb41454e1
 
 def convolution(image, filters, bias, s=1):
     """
