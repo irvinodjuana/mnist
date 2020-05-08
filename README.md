@@ -15,3 +15,27 @@ Please note that some of the utility functions and specialized optimization rout
 | 1.4 | Multi-layer Perceptron | 98.0% |
 | 1.5 | CNN | 95.0% |
 
+The "-m" flag above is used for running the Python script. The accuracies reported above are the best classification accuracies I achieved for each model on the MNIST test set. Records for the best accuracies historically achieved for various models can be found here: http://yann.lecun.com/exdb/mnist/
+
+## Running the Code
+
+To start, this code requires Python 3.7+ and pip to be installed on your machine. 
+Run the code below in your terminal to clone the repository and setup your environment.
+
+```
+git clone https://github.com/irvinodjuana/mnist.git
+cd mnist/
+pip install -r requirements.txt
+```
+
+To train and evaluate one of the models listed above, navigate to the code directory and run main.py with one of the -m arguments listed above. For example, to run the KNN model, use:
+
+```
+cd code/
+python3 main.py -q 1.1
+```
+
+Some of the models require a significant amount of memory, and may not be runnable on machines with less memory. Each model's hyperparameters can be adjusted in the main.py script as well.
+
+
+
